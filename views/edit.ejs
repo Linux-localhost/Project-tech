@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>profile</title>
+</head>
+
+<body>
+    <main>
+        <section class="details">
+            <div></div>
+            <img src="./img/avatars/<%= data.picture %>" alt="Profile picture">
+        </section>
+        <section class="edit">
+            <form method="POST" action="/edit-profile">
+                <legend>Profiel foto</legend>
+                <select name="profilepicture" selected="linux.png">
+                    <option value="Moffel.png">Moffel</option>
+                    <option value="Stock.png">Stock</option>
+                    <option value="linux.png">Linux</option>
+                    <option value="raccoon.png">Raccoon</option>
+                  </select>
+                <fieldset>
+                    <legend>Naam</legend>
+                    <input type="text" id="username" name="username"  value="<%= data.username %>" required>
+                    <legend>email</legend>
+                    <input type="email" id="email" name="email"  value="<%= data.email %>" required>
+                    <legend>leeftijd</legend>
+                    <input type="number" id="age" name="age"  value="<%= data.age %>" required>
+                    <legend>Locatie</legend>
+                    <input type="text" id="location" name="location"  value="<%= data.location %>" required>
+                    <legend>Wachtwoord</legend>
+                    <input type="password" id="password" name="password"  value="<%= data.password %>" required>
+                    <button type="submit">Wijzig profiel</button>
+                </fieldset>
+        </form>
+        <a href="/delete">
+
+            <p>Delete</p>
+        </a>
+    </section>
+    </main>
+</body>
+
+</html>
