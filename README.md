@@ -3,7 +3,7 @@
 > Hi, welcome to my repository here you can find my source code for my dating app feature! I will be making a register and login feature. My feature will be programmed in node js.
 
 
-![Homepage](https://rowinruizendaal.github.io/project-tech/img/wiki-pic.png)
+![Homepage](https://linux-localhost.github.io/Project-tech/img/wiki-pic.png)
 
 ## Live demo
 [Website on heroku](https://rowinruizendaaldatingapp.herokuapp.com/index)
@@ -34,14 +34,11 @@ _<rowin.ruizendaal@hva.nl>_
 _Contact me on cmd tech slack:_
 _[Slack](https://cmda-tech.slack.com/archives/D011V7V1L1K)_
 
-_Fill in github issue template:_
-_[Github Issue](https://github.com/RowinRuizendaal/project-tech/issues/new/choose)_
-
 _For a detailed explanation on my research please feel free to visit my wiki_ 
-_[wiki](https://github.com/RowinRuizendaal/project-tech/wiki)_
+_[wiki](https://github.com/Linux-localhost/Project-tech/wiki)_
 
 _Static website_
-_[Static website](https://rowinruizendaal.github.io/project-tech/static-website/index.html)_
+_[Static website](https://linux-localhost.github.io/Project-tech/static-website/index.html)_
 
 ## Progress:
 
